@@ -9,7 +9,7 @@ Created a Portfolio application to showcase the various projects I have complete
 ## Links
 [GitHub](https://github.com/bpavlis/portfolio)
 
-[GitHub Pages](https://bpavlis.github.io/portfolio/)
+[GitHub Pages](https://benpavlisportfolio.netlify.app/)
 
 ## Additional Note
 This work was completed partially using the aid of a template given to us by our instructor as well as code from the student-project in this unit, he had given us permission to do this.
