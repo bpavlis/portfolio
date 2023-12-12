@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/about-me" element={<AboutMe />} />
