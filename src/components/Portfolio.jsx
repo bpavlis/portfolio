@@ -3,7 +3,7 @@ import footballGamePic from "../assets/group-project-1_game-screenshot.png"
 import unblurredPic from "../assets/project2screenshot.png"
 import logoMakerPic from "../assets/unit10finalscreenshot.png"
 import employeePic from "../assets/unit12finalscreenshot.png"
-// import footballGamePic from "../assets/group-project-1_game-screenshot.png"
+import pwaPic from "../assets/unit19finalscreenshot.png"
 // import footballGamePic from "../assets/group-project-1_game-screenshot.png"
 
 
@@ -57,7 +57,7 @@ export default function Portfolio(props){
         </div>
       </div>
       <div className="aboutContainer">
-        <img id="portImg" src={footballGamePic} style={{width: '300px'}} alt="avatar img"/>
+        <img id="portImg" src={pwaPic} style={{width: '300px'}} alt="avatar img"/>
         <p id="portText"><span><h2 className="githubTitle">Text Editor (PWA)</h2></span>This again was an assignment for the Full-Stack program that I enjoyed completing. I created a Text Editor application to create notes/code snippets regardless of internet connectivity status. This project is using JS and npm: express, concurrently, and nodemon.</p>
         <div className="portLinkContainer">
         <a className="portLink" href="https://github.com/bpavlis/text-editor" target="_blank">Github Link</a>
