@@ -1,5 +1,5 @@
 :root {
-  --lightgrn: rgb(83, 83, 83);
+  --lightgray: rgb(83, 83, 83);
   text-align: center;
 }
 
@@ -24,16 +24,6 @@ html {
   align-items: center;
 }
 
-/* #btn {
-padding: 5px;
-border-color: black;
-border-radius: 5px;
-border-width: 2px;
-text-decoration: none;
-color: black;
-background-color: white;
-} */
-
 #href{
   text-decoration: none;
   color: black;
@@ -50,7 +40,7 @@ background-color: white;
   /* font-size: 18px */
 }
 #nav{
-  background-color: var(--lightgrn);
+  background-color: var(--lightgray);
   padding-bottom: 20px
 }
 #none{
@@ -170,4 +160,10 @@ background-color: white;
 
 .profTitle{
   color: white;
+}
+
+.linkLogo {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
 }

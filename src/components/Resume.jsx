@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import resume from '../assets/BenjaminPavlisResume2023.pdf'
+import cloudImg from '../assets/cloud.png'
 
 export default function Resume(props) {
 
@@ -11,7 +12,7 @@ export default function Resume(props) {
       </div>
       <div className="downloadResContainer">
         <h2>Click Here To Download My Resume:</h2>
-        <a href={resume} download><img className="resImg" src="https://cdn-icons-png.flaticon.com/512/88/88645.png" alt="Download my resume here!" /></a>
+        <a href={resume} download><img className="resImg" src={cloudImg} alt="Download my resume here!" /></a>
       </div>
       <h2 className="profTitle">Check out my developer proficiencies:</h2>
       <div className="resContainer">
