@@ -4,7 +4,7 @@ import unblurredPic from "../assets/project2screenshot.png"
 import logoMakerPic from "../assets/unit10finalscreenshot.png"
 import employeePic from "../assets/unit12finalscreenshot.png"
 import pwaPic from "../assets/unit19finalscreenshot.png"
-// import footballGamePic from "../assets/group-project-1_game-screenshot.png"
+import project3Pic from "../assets/project3screenshot.png"
 
 
 
@@ -33,11 +33,11 @@ export default function Portfolio(props){
         </div>
       </div>
       <div className="aboutContainer">
-        <img id="portImg" src={footballGamePic} style={{width: '300px'}} alt="avatar img"/>
-        <p id="portText"><span><h2 className="githubTitle">Project 3 Will Go Here (madlibs)</h2></span>IMG WILL BE CHANGED Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum inventore repellat at, obcaecati veritatis magnam iure harum alias, amet ipsum nulla animi aut, dolorem quaerat asperiores adipisci deleniti non.</p>
+        <img id="portImg" src={project3Pic} style={{width: '300px'}} alt="avatar img"/>
+        <p id="portText"><span><h2 className="githubTitle">Madlibs Mania</h2></span>Create your own madlibs and save them with our App! Upon first arrival of site youll be greeted with our animated logo and blob! Accompanied by Story examples where you can then view and add comments if you are Signed in ,You'll notice on the upper left youll see Home / Create Page / Login tabs that will redirect you to the corresponding pages.</p>
         <div className="portLinkContainer">
         <a className="portLink" href="https://github.com/KeeslingB/madlibs-gpt" target="_blank">Github Link</a>
-        <a className="portLink" href="" target="_blank">Depolyed Link</a>
+        <a className="portLink" href="https://madlibsgpt-47c520ae93df.herokuapp.com/" target="_blank">Depolyed Link</a>
         </div>
       </div>
       <div className="aboutContainer">
