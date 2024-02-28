@@ -1,41 +1,41 @@
-import { useState } from "react"
+// import { useState } from "react"
 
 export default function ContactMe() {
-  const [userName, setUserName] = useState("")
-  const [userEmail, setUserEmail] = useState("")
-  const [userMessage, setUserMessage] = useState("")
-  const [error, setError] = useState("")
+  // const [userName, setUserName] = useState("")
+  // const [userEmail, setUserEmail] = useState("")
+  // const [userMessage, setUserMessage] = useState("")
+  // const [error, setError] = useState("")
 
-  function handleInputChange(e) {
-    const { target } = e;
-    const inType = target.name;
-    const inValue = target.value;
-    if (inType === "userEmail") {
-      setUserEmail(inValue)
-    } else if (inType === "userName") {
-      setUserName(inValue)
-    } else {
-      setUserMessage(inValue)
-    }
-  }
+  // function handleInputChange(e) {
+  //   const { target } = e;
+  //   const inType = target.name;
+  //   const inValue = target.value;
+  //   if (inType === "userEmail") {
+  //     setUserEmail(inValue)
+  //   } else if (inType === "userName") {
+  //     setUserName(inValue)
+  //   } else {
+  //     setUserMessage(inValue)
+  //   }
+  // }
 
-  function validateEmail(email) {
-    var validate = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    return validate.test(String(email).toLowerCase())
-  }
-  async function handleFormSubmit(e) {
-    e.preventDefault()
+  // function validateEmail(email) {
+  //   var validate = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  //   return validate.test(String(email).toLowerCase())
+  // }
+  // async function handleFormSubmit(e) {
+  //   e.preventDefault()
 
-    if (!validateEmail(userEmail) || !userName || !userMessage) {
-      setError("[ Invalid: Make sure you entered the right name, email, and message! ]")
-      return
-    } else {
-      setError("")
-    }
-    setUserName("")
-    setUserEmail("")
-    setUserMessage("")
-  }
+  //   if (!validateEmail(userEmail) || !userName || !userMessage) {
+  //     setError("[ Invalid: Make sure you entered the right name, email, and message! ]")
+  //     return
+  //   } else {
+  //     setError("")
+  //   }
+  //   setUserName("")
+  //   setUserEmail("")
+  //   setUserMessage("")
+  // }
 
 
   return (
