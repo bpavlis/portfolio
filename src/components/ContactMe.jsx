@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
-export default function ContactMe(props) {
+export default function ContactMe() {
   const [userName, setUserName] = useState("")
   const [userEmail, setUserEmail] = useState("")
   const [userMessage, setUserMessage] = useState("")
@@ -40,7 +40,7 @@ export default function ContactMe(props) {
 
   return (
     <>
-      <div>
+      {/* <div>
         <h1 className="pageTitle">Contact Me</h1>
       </div>
       <div className='inputContainer'>
@@ -53,7 +53,7 @@ export default function ContactMe(props) {
         <div>
           <p className="errorText">{error}</p>
         </div>
-      )}
+      )} */}
       <div>
         <h1 className="pageTitle">My Info</h1>
       </div>

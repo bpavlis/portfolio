@@ -3,14 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import './App.css'
 
-export default function Header(props){
+export default function Header(){
 
 
   return (
     <>
       <Navbar id="nav">
       <Container id="none">
-        <Navbar.Brand href="/" id="href-nav"><h1>Ben Pavlis' Portfolio</h1></Navbar.Brand>
+          <Navbar.Brand href="/" id="href-nav"><h1>Ben Pavlis&apos; Portfolio</h1></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link id="nav-text" href="/about-me">About Me</Nav.Link>
             <Nav.Link id="nav-text" href="/portfolio">Portfolio</Nav.Link>

@@ -3,7 +3,7 @@ import linkedinLogo from "../assets/linkedinLogo.png"
 import instaLogo from "../assets/instaLogo.png"
 
 
-export default function Footer(props) {
+export default function Footer() {
 
 
   return (

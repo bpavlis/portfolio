@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react"
+// import { useState, useEffect } from "react"
 import resume from '../assets/BenjaminPavlisResume2023.pdf'
 import cloudImg from '../assets/cloud.png'
 
-export default function Resume(props) {
+export default function Resume() {
 
 
   return (

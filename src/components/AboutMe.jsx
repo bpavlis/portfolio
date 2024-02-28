@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react"
+// import { useState, useEffect } from "react"
 import profilePic from "../assets/profilePic.jpg"
 
-export default function AboutMe(props){
+export default function AboutMe(){
 
 
   return (
