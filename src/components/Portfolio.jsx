@@ -5,6 +5,7 @@ import logoMakerPic from "../assets/unit10finalscreenshot.png"
 import employeePic from "../assets/unit12finalscreenshot.png"
 import pwaPic from "../assets/unit19finalscreenshot.png"
 import project3Pic from "../assets/project3screenshot.png"
+import codAppPic from "../assets/codAppScreenshot1.png"
 
 
 
@@ -38,6 +39,13 @@ export default function Portfolio(){
         <div className="portLinkContainer">
           <a className="portLink" href="https://github.com/KeeslingB/madlibs-gpt" target="_blank" rel="noreferrer">Github Link</a>
           <a className="portLink" href="https://madlibsgpt-47c520ae93df.herokuapp.com/" target="_blank" rel="noreferrer">Depolyed Link</a>
+        </div>
+      </div>
+      <div className="aboutContainer">
+        <img id="portImg" src={codAppPic} style={{ width: '300px' }} alt="avatar img" />
+        <p id="portText"><span><h2 className="githubTitle">Call of Duty Stat Tracking App</h2></span>This is an application designed to track Call of Duty statistics for a team of 4 players.Currently, the application is hard-coded to only be used for a specific team of 4 players. In the future there are plans to expand so users can create and join their own teams with their own usernames. The tech stack includes but is not limited to HTML, CSS, JS, express, mongoose, bootstrap, react, and more.</p>
+        <div className="portLinkContainer">
+          <a className="portLink" href="https://github.com/bpavlis/codApp" target="_blank" rel="noreferrer">Github Link</a>
         </div>
       </div>
       <div className="aboutContainer">
