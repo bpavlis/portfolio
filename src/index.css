@@ -9,7 +9,7 @@ body,
 html {
   font-family: 'Tilt Neon', sans-serif;
   background-image: url("./assets/backgroundPortfolio.png");
-  /* background-color: rgb(141, 141, 141); */
+  /* background-color: rgb(75, 75, 75); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,6 +149,49 @@ html {
   border: white solid 2px;
   width: 32%;
   line-height: 1.4;
+}
+
+.educationBox{
+  border: white solid 2px;
+  width: 40%;
+  line-height: 1.4;
+}
+.edContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  margin: 20px;
+  margin-top: 30px;
+  color: white;
+}
+.edText {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.experienceBox{
+  width: 100%;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+.exContainer{
+  margin: 20px;
+  margin-top: 30px;
+  color: white;
+}
+.exText {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: left;
+}
+.exList {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: left;
 }
 
 .downloadResContainer{

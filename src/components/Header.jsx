@@ -14,8 +14,10 @@ export default function Header(){
           <Nav className="me-auto">
             <Nav.Link id="nav-text" href="/about-me">About Me</Nav.Link>
             <Nav.Link id="nav-text" href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link id="nav-text" href="/contact-me">Contact Me</Nav.Link>
+            <Nav.Link id="nav-text" href="/education">Education</Nav.Link>
+            <Nav.Link id="nav-text" href="/experience">Experience</Nav.Link>
             <Nav.Link id="nav-text" href="/resume">Resume</Nav.Link>
+            <Nav.Link id="nav-text" href="/contact-me">Contact Me</Nav.Link>
           </Nav>
       </Container>
     </Navbar>
