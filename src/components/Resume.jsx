@@ -1,5 +1,5 @@
 // import { useState, useEffect } from "react"
-import resume from '../assets/BenjaminPavlisResume2024.pdf'
+import resume from '../assets/BenjaminPavlisResume4-1-24.pdf'
 import cloudImg from '../assets/cloud.png'
 
 export default function Resume() {

@@ -6,6 +6,9 @@ import employeePic from "../assets/unit12finalscreenshot.png"
 import pwaPic from "../assets/unit19finalscreenshot.png"
 import project3Pic from "../assets/project3screenshot.png"
 import codAppPic from "../assets/codAppScreenshot1.png"
+import smbPortPic from "../assets/smbPortPic.png"
+import seniorProjectPDF from "../assets/seniorProjectPDF.pdf"
+import seniorProjectPNG from "../assets/seniorProjectPNG.png"
 
 
 
@@ -16,6 +19,13 @@ export default function Portfolio(){
     <>
       <div>
         <h1 className="pageTitle">My Portfolio</h1>
+      </div>
+      <div className="aboutContainer">
+        <img id="portImg" src={smbPortPic} style={{ width: '300px' }} alt="avatar img" />
+        <p id="portText"><span><h2 className="githubTitle">Sweet Marie Blooms</h2></span>New small business, Sweet Marie Blooms, commissioned a floral website designed and developed using Squarespace, HTML, CSS, and JavaScript while keeping in mind SEO best practices. The website captures the essence of Sweet Marie&apos;s unique floral arrangements, offering a seamless online experience for visitors to explore and purchase blooms for any occasion.</p>
+        <div className="portLinkContainer">
+          <a className="portLink" href="https://sweetmarieblooms.com/" target="_blank" rel="noreferrer">Site Link</a>
+        </div>
       </div>
       <div className="aboutContainer">
         <img id="portImg" src={footballGamePic} style={{width: '300px'}} alt="avatar img"/>
@@ -70,6 +80,13 @@ export default function Portfolio(){
         <div className="portLinkContainer">
           <a className="portLink" href="https://github.com/bpavlis/text-editor" target="_blank" rel="noreferrer">Github Link</a>
           <a className="portLink" href="https://text-editor-bp-9dea36ce201f.herokuapp.com/" target="_blank" rel="noreferrer">Depolyed Link</a>
+        </div>
+      </div>
+      <div className="aboutContainer">
+        <img id="portImg" src={seniorProjectPNG} style={{ width: '300px' }} alt="avatar img" />
+        <p id="portText"><span><h2 className="githubTitle">Senior Project 2023</h2></span>The title of my Luther College Senior Project: Societal Analysis of Online Discourse Surrounding Female Athletes. This project will help others to get a sense of my personal writing style and interests outside the world of computer coding.</p>
+        <div className="portLinkContainer">
+          <a className="portLink" href={seniorProjectPDF} target="_blank" rel="noreferrer">Paper Link</a>
         </div>
       </div>
     </>
